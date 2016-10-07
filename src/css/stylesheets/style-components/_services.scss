@@ -1,0 +1,136 @@
+/*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\*/
+
+	/* SERVICES */
+
+/*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\*/
+
+
+.about-us-container {
+	margin-top: 20px;
+}
+
+
+.panel-default > .panel-heading {
+    background-color: #002e52;
+    border-radius: 3px;
+}
+
+
+#about-us-title {
+	font-weight: 200;
+}
+
+
+#about-us-horizontal-rule {
+	width: 30%;
+	border-color: #3e7ee6;
+}
+
+
+.services-container {
+	margin-top: 50px;
+	margin-bottom: 20px
+}
+
+
+#services-title {
+	font-weight: 200;
+	color: #002e52;
+}
+
+.custom-option-glyphicon-color {
+	color: #ffffff;
+}
+
+
+.glyphicon {
+	margin-right: 10px;
+}
+
+.option-link {
+	color: white !important;
+	font-weight: 200;
+}
+
+
+.option-link:hover {
+	text-decoration: none;
+}
+
+
+
+.panel-body {
+	padding:0px;
+}
+
+.panel-body table tr td {
+	padding-left: 15px
+}
+
+.panel-body .table {
+	margin-bottom: 0px;
+}
+
+
+.accordion-service-details {
+	height: 450px;
+}
+
+.services-associated-title {
+	margin: 0;
+	font-weight: 200;
+	padding: 10px 0 0 10px;
+}
+
+.services-associated-paragraph {
+	margin: 0;
+	font-weight: 100;
+	padding: 10px 0 0 10px;
+}
+
+
+.glyphicon-circle-arrow-right {
+	color: #002e52;
+}
+
+
+.services-associated-custom-list-item {
+	padding-left: 10px;
+}
+
+
+.accordion-associated-image {
+	height: 450px;
+	background-image:
+        linear-gradient(rgba(0, 46, 82, 0.6), rgba(0, 46, 82, 0.6)), 
+        url(../../img/accordion-image-placeholder.jpg);
+	background-size: cover;
+}
+
+
+
+/* CHANGES FOR IPHONE AND IPAD PORTRAIT */
+
+@media screen and (max-width: 768px) {
+
+	#about-us-horizontal-rule {
+		width: 60%;
+	}
+
+
+	.services-container {
+		margin-top: 30px;
+		margin-bottom: 50px;
+	}
+
+
+	.accordion-service-details {
+		height: 380px;
+	}
+
+
+	.accordion-associated-image {
+		height: 150px;
+
+	}
+}

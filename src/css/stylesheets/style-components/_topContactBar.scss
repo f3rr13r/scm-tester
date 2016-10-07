@@ -1,0 +1,163 @@
+/*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\*/
+
+	/* TOP CONTACT BAR */
+
+/*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\*/
+
+
+
+
+
+.top-container {
+		width: 100%;
+		height: 50px;
+	}
+
+	.row.no-gutter {
+	  margin-left: 0 auto;
+	  margin-right: 0 auto;
+	}
+
+	.row.no-gutter [class*='col-']:not(:first-child),
+	.row.no-gutter [class*='col-']:not(:last-child) {
+	  padding-right: 0;
+	  padding-left: 0;
+	}
+
+	#phone-contact-holder {
+	    position: absolute;
+	    width: 100%;
+	    height: 50px;
+
+	    /* TEST */
+	    top: 25px;
+	    z-index: 2;
+
+
+		background-color: #888888;
+		border-bottom: 2px solid #fff;
+	}
+
+
+	#phone-contact-holder:hover {
+	    position: absolute;
+	    width: 100%;
+		background-color: #626262;
+	}
+
+	.office-phone-icon-and-number {
+		width: 50%;
+	}
+
+
+	.phone-number-padding-issues {
+		position: relative;
+		top: 5px;
+		color: white;
+		font-weight: 100;
+		font-size: 1.6rem;
+	}
+
+
+	.office-phone-icon-and-number:hover {
+		text-decoration: none;
+		color: white;
+	}
+
+
+	.emergency-phone-icon-and-number:hover {
+		text-decoration: none;
+		color: white;
+	}
+
+
+	.phone-icon {
+		height: 36px;
+		margin-left: 7%;
+		margin-top: 7px;
+		padding-top: -4px;
+		padding-right: 10px;
+	}
+
+
+	.email-icon-button {
+
+		/* TEST */
+		position: absolute;
+		top: 25px;
+		z-index: 2;
+
+		border: none;
+		width: 100%;
+		height: 50px;
+		color: white;
+		font-weight: 200;
+		padding-right: 5px;
+		padding-top: 5px;
+		font-size: 2rem;
+		font-weight: 100;
+		border-bottom: 2px solid #fff;
+		background-color: #3e7ee6;
+	}
+
+
+	.email-icon-button:hover {
+		border: none;
+		width: 100%;
+		color: white;
+		font-weight: 100;
+		padding-right: 5px;
+		padding-top: 5px;
+		font-size: 2rem;
+		border-bottom: 2px solid #fff;
+		background-color: #1b5dd1;
+
+	}
+
+
+	.email-icon {
+		height: 36px;
+		position: relative;
+		left: -10px;
+		bottom: 2px;
+	}
+
+
+
+@media screen and (max-width: 768px) {
+	.top-container {
+		width: 100%;
+		height: 100px;
+	}
+
+
+	.gray-background {
+		height: 50px;
+	}
+
+
+	.office-phone-icon-and-number {
+		float: right;
+	}
+
+
+	#phone-contact-holder {
+		border-bottom: 0px none;
+	}
+
+}
+
+
+
+@media screen and (max-width: 480px) {
+	#phone-contact-holder {
+		position: absolute;
+		top: 13px;
+	}
+
+
+	.email-icon-button {
+		position: absolute;
+		top: 13px;
+	}
+}
