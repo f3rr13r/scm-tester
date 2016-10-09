@@ -26,7 +26,7 @@ export default class FindUs extends Component {
 
 								<h1 id="find-us-title" class="text-center">Where To Find Us</h1>
 
-									<hr id="who-we-are-horizontal-rule"/>
+									<hr id="where-to-find-us-horizontal-rule"/>
 
 									<p class="lead text-center text-white-and-larger">Sedgwick Chudleigh McKenna Solicitors Ltd</p>
 
@@ -40,7 +40,7 @@ export default class FindUs extends Component {
 
 									<p class="lead text-center text-white-and-larger">CF31 1LH</p>
 
-									<hr id="who-we-are-horizontal-rule"/>
+									<hr id="where-to-find-us-horizontal-rule"/>
 
 									<p class="text-center"><Link to="findUs" id="get-directions-button" class="btn btn-primary btn-lg" role="button">Get Directions</Link></p>
 

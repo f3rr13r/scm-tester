@@ -1,6 +1,6 @@
 /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\*/
 
-	/* MODAL */
+	/* JUMBOTRON */
 
 /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\*/
 
@@ -14,6 +14,7 @@
 	background-size: cover;
 	min-height: 200px;
 }
+
 
 .bgimage-inside {
 	padding-top: 30%;
@@ -53,6 +54,7 @@
 	letter-spacing: 1px;
 }
 
+
 #learn-more-button:hover {
 	border: 1px solid #fff;
 }
@@ -68,15 +70,27 @@
 
 /*/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\/\*/
 
+#who-we-are-dialogue-box {
+	height: 500px;
+	background-color: white;
+	margin-top: 0;
+	padding-top: 0;
+}
+
 
 #who-we-are-title {
-	margin-top: 75px;
 	font-weight: 100;
+	margin-top: 0px;
+	position: relative;
+	top: 30px;
 }
+
 
 #who-we-are-horizontal-rule {
 	border-color: #3e7ee6;
 	width: 30%;
+	position: relative;
+	top: 30px;
 }
 
 
@@ -85,6 +99,7 @@
 	margin: 10% auto;
 	font-weight: 100;
 }
+
 
 #meet-the-team-button {
 	background-color: transparent;
@@ -96,6 +111,7 @@
 	position: relative;
 	bottom: 25px;
 }
+
 
 #meet-the-team-button:hover {
 	border: 1px solid #888888;
@@ -115,7 +131,7 @@
 
 
 
-@media (max-width: 764px) {
+@media (max-width: 768px) {
 
 	#who-we-are-dialogue-box {
 		background-image:
@@ -123,30 +139,40 @@
         	url(../../img/who-we-are-image.jpg);
      	background-repeat: no-repeat;
      	background-position: center;
-     	background-size: 100% auto;
-
+     	background-size: cover;
      	height: 400px;
     }
 
 
 	#who-we-are-title {
-		margin-top: 2px;
-		padding-top: 30px;
+		margin-top: 0px;
+		padding-top: 0px;
 		color: white;
+		position: relative;
+		top: 30px;
+	}
+
+
+	#who-we-are-horizontal-rule {
+		position: relative;
+		top: 30px;
 	}
 
 
 	#who-we-are-description-tag {
 		color: white;
-		margin-top: -15px;
+		position: relative;
+		top: 25px;
+		font-weight: 200;
 	}
+
 
 	#meet-the-team-button {
 		color: white;
 		border: 1px solid #3e7ee6;
-		margin: 15px 0 15px 0;
 
 	}
+
 
 	#meet-the-team-button:hover {
 		color: white;
@@ -201,6 +227,14 @@
 	position: relative;
 	top: -20px;
 }
+
+
+#where-to-find-us-horizontal-rule {
+	border-color: #3e7ee6;
+	width: 30%;
+	position: relative;
+
+} 
 
 
 .text-white-and-larger {

@@ -24,14 +24,14 @@ export default class Navbar extends Component {
 
 			        <div class="collapse navbar-collapse" id="navbar-brand-centered">
 			          <ul class="nav navbar-nav">
-			            <li><IndexLink class="border-left li-margin-bottom" to="/" data-toggle="collapse" data-target=".navbar-collapse">HOME</IndexLink></li>
-			            <li><Link class="border-left" to="services" data-toggle="collapse" data-target=".navbar-collapse">SERVICES</Link></li>
+			            <li><IndexLink class="border-left li-margin-bottom" to="/" data-toggle="collapse" data-target=".navbar-collapse.in">HOME</IndexLink></li>
+			            <li><Link class="border-left" to="services" data-toggle="collapse" data-target=".navbar-collapse.in">SERVICES</Link></li>
 			          </ul>
 			          <ul class="nav navbar-nav navbar-right">
 			            {/*<li><a class="border-right li-margin-bottom" href="./team.html">OUR TEAM</a></li>
 			            <li><a class="border-right" href="./location.html">FIND US</a></li>   */}
-			            <li><Link class="border-right li-margin-bottom" to="team" data-toggle="collapse" data-target=".navbar-collapse">OUR TEAM</Link></li>
-			            <li><Link class="border-right" to="findUs" data-toggle="collapse" data-target=".navbar-collapse">FIND US</Link></li>    
+			            <li><Link class="border-right li-margin-bottom" to="team" data-toggle="collapse" data-target=".navbar-collapse.in">OUR TEAM</Link></li>
+			            <li><Link class="border-right" to="findUs" data-toggle="collapse" data-target=".navbar-collapse.in">FIND US</Link></li>    
 			          </ul>
 			        </div>	{/*<!-- /.navbar-collapse -->*/}
 			      </div>	{/*<!-- /.container-fluid -->*/}

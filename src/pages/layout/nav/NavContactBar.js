@@ -15,9 +15,9 @@ export default class NavContactBar extends Component {
 							{/*<!-- Phone number -->*/}
 							<div class="gray-background">
 								<div id="phone-contact-holder">
-									<a class="office-phone-icon-and-number" href="#"><img class="phone-icon" src={require("../../../img/phone-icon.png")} /><span class="phone-number-padding-issues">01656 767766</span></a>
+									<a class="office-phone-icon-and-number" href="tel:01656-767766"><img class="phone-icon" src={require("../../../img/phone-icon.png")} /><span class="phone-number-padding-issues">01656 767766</span></a>
 
-									<a class="emergency-phone-icon-and-number" href="#"><img class="phone-icon" src={require("../../../img/24-hour-number-icon.png")} /><span class="phone-number-padding-issues">07917 754134</span></a>
+									<a class="emergency-phone-icon-and-number" href="tel:00447917-754-134"><img class="phone-icon" src={require("../../../img/24-hour-number-icon.png")} /><span class="phone-number-padding-issues">07917 754134</span></a>
 								</div>
 							</div>
 						</div>

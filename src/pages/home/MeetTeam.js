@@ -12,6 +12,7 @@ export default class Jumbotron extends Component {
 							{/*<!-- WHO WE ARE DIALOGUE -->*/}
 
 							<div id="who-we-are-dialogue-box">
+
 								<h1 id="who-we-are-title" class="text-center">Who We Are</h1>
 
 								<hr id="who-we-are-horizontal-rule"/>

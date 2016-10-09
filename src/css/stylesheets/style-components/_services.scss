@@ -126,11 +126,23 @@
 
 	.accordion-service-details {
 		height: 380px;
+		background-color: white;
 	}
 
 
 	.accordion-associated-image {
 		height: 150px;
 
+	}
+}
+
+
+@media screen and (max-width: 480px) {
+	.about-us-description {
+		font-weight: 300;
+	}
+
+	.services-associated-paragraph {
+		font-weight: 300;
 	}
 }
